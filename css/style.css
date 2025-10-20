@@ -6,3 +6,20 @@ Medium green: #55c57a
 Dark green: #28b485
 
 */
+
+/**
+ * ================
+ * Basic reset or normalize css. in order to cross browser compatibility.
+ * using Universal Selector {*}
+ * ================
+ */
+
+/** Note: Universal selector will select each and every element on the page ,
+ *  resetting their default styles and then apply these declarations here to it.
+ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
